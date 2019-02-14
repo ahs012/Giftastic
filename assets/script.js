@@ -152,7 +152,7 @@ var animals = JSON.parse(localStorage.getItem("animals"));
 // If not, set animals variable to a starting array
 // Otherwise list is our current list of animals
 if (!Array.isArray(animals)) {
-  animals = ["Lion", "Zebra", "Kangaroo", "Rhino", "Dog", "Cat", "Mouse"];
+  animals = ["Goat", "Lion", "Whale", "Rhino", "Dog", "Cat", "Sheep"];
 }
 
 // Render our animal buttons on page load
